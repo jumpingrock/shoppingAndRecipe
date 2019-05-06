@@ -7,7 +7,10 @@ import { Recipe } from '../recipe.model'
   styleUrls: ['./recipe-list.component.css']
 })
 export class RecipeListComponent implements OnInit {
-  receipes: Recipe[] = [new Recipe('A Test Recipe', 'This is a test', 'https://i1.wp.com/ohmyveggies.com/wp-content/uploads/2013/02/how_to_make_mushroom_stock.jpg')];
+  recipes: Recipe[] =
+  [new Recipe('A Test Recipe', 'This is a test', 'https://cdn.pixabay.com/photo/2016/06/15/19/09/food-1459693_960_720.jpg'),
+  new Recipe('A Test Recipe', 'This is a test', 'https://cdn.pixabay.com/photo/2016/06/15/19/09/food-1459693_960_720.jpg')];
+
 
 
   constructor() { }
