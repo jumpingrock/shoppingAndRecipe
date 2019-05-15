@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'shoppingAndRecipe';
+  loadedFeature = 'recipe';
+  onNavigate(feature: string) {
+// tslint:disable: indent
+	this.loadedFeature = feature;
+  }
 }
